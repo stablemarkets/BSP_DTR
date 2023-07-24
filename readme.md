@@ -11,7 +11,10 @@ Part (1) is done by calling the function `bayes_dtr_mcmc()` contained in the fil
 
 Part (2) uses the posterior draws from (1) to evaluate the causal effect of a specified dynamic treatment rule (DTR) via a g-computation procedure. This is done via the `gcomp_bayes()` function contained in `helper_functions/gcomp_bayes.R`.
 
-The file `run_bsp_models.R` runs the gcomp procedure under two specified rules and then plots the marginal survival curve under each. Optimization can be done by looping `gcomp_bayes()` across a series of rules.
+The file `run_bsp_models.R` runs the gcomp procedure under two specified rules and then plots the marginal survival curve under each. This is contained in `output/survivalplots.png`:
+![](output/survivalplots.png)
+
+Optimization can be done by looping `gcomp_bayes()` across a series of rules.
 
 ## Runtime
 The run-time for `bayes_dtr_mcmc()` is about 12 minutes for the given data set containing 1,000 subjects with 10,000 total iterations and the following session info. Under the same settings, the run time for `gcomp_bayes()` is about 1.5 minutes per rule.
