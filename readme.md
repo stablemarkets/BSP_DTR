@@ -1,7 +1,27 @@
 # Bayesian Semiparametric Analysis of Dynamic Treatment Regimes
 
 ## Summary
-This repository contains sample R code for Bayesian semiparametric analysis of dynamic treatment regimes via the Gamma Process models developed here: https://arxiv.org/abs/2211.16393
+This repository contains sample R code for Bayesian semiparametric analysis of dynamic treatment regimes via the Gamma Process models developed here: https://doi.org/10.1093/biostatistics/kxad035
+
+Slightly outdated arxiv version here: https://arxiv.org/abs/2211.16393
+
+## Citation
+Please use the following .bib citation if you are using LaTeX:
+```
+@article{Oganisian2024,
+    author = {Oganisian, Arman and Getz, Kelly D and Alonzo, Todd A and Aplenc, Richard and Roy, Jason A},
+    title = {Bayesian semiparametric model for sequential treatment decisions with informative timing},
+    journal = {Biostatistics},
+    volume = {25},
+    number = {4},
+    pages = {947-961},
+    year = {2024},
+    month = {01},
+    issn = {1465-4644},
+    doi = {10.1093/biostatistics/kxad035}
+}
+
+``` 
 
 ## File Description and Instructions
 
@@ -24,18 +44,6 @@ R version 4.1.0 (2021-05-18)
 Platform: x86_64-apple-darwin17.0 (64-bit)
 Running under: macOS Big Sur 11.7.4
 ```
-## Citation
-Please use the following LaTeX cite as follows:
-```
-@misc{oganisian2022bayesian,
-      title={Bayesian Semiparametric Model for Sequential Treatment Decisions with Informative Timing}, 
-      author={Arman Oganisian and Kelly D. Getz and Todd A. Alonzo and Richard Aplenc and Jason A. Roy},
-      year={2022},
-      eprint={2211.16393},
-      archivePrefix={arXiv},
-      primaryClass={stat.ME}
-}
-``` 
 
 ## Contact
 Corresponding Author: Arman Oganisian (email:arman_oganisian@brown.edu)
